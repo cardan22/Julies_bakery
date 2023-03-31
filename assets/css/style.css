@@ -13,7 +13,6 @@ body {
 
 /* headings and logo */
 
-
 h1, h2 {
     font-family: Playfair Display, sans-serif;
 }
@@ -59,7 +58,6 @@ h1, h2 {
 #cover-text h2 {
     color: #fff;
 }
-
 
 #hero-image {
     height: 750px;
