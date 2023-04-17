@@ -186,3 +186,48 @@ nav .fa-solid {
     background: #fff; 
     color: #985C5C; 
 }
+
+
+
+/* Media queries for devices smaller than 992px*/
+@media only screen and (max-width: 992px) {
+    
+    /* Hero text */
+    .hero-text {
+        width: 70vw;
+    }
+
+    .hero-text h1, .pastry-text h1, .course-text h1 {
+        font-size: 3rem;
+    }
+
+    .pastry-text h2, {
+        font-size: 2rem;
+    }
+
+    .hero-text p, .pastry-text p, .course-text p {
+        font-size: 1.6rem;
+    }
+
+    /* Pastry of the month section */
+    
+    .pastry-container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .pastry-text {
+        width: auto;
+    }
+
+    .pastry-img img {
+        width: 100vw;
+        height: 60vh;
+    }
+
+    /* Course section */
+
+    .course-btn {
+        font-size: 1.5rem;
+    }
+
