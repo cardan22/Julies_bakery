@@ -289,4 +289,36 @@ nav .fa-solid {
         background: transparent;
         border: none;
     }   
+
+    /* Headings */
+
+    .hero-text h1, .pastry-text h1, .course-text h1 {
+        font-size: 3rem;
+    }
+
+    .pastry-text h2, {
+        font-size: 2rem;
+    }
+
+    /* Pastry of the month section */
+    
+    .flex-container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .pastry-text {
+        width: auto;
+    }
+
+    .pastry-img img {
+        width: 100vw;
+        height: 60vh;
+    }
+
+    /* Course section */
+
+    .course-btn {
+        font-size: inherit;
+    }
 }
