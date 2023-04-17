@@ -300,25 +300,35 @@ nav .fa-solid {
         font-size: 2rem;
     }
 
-    /* Pastry of the month section */
-    
-    .flex-container {
-        flex-direction: column;
-        height: auto;
-    }
-
-    .pastry-text {
-        width: auto;
-    }
-
-    .pastry-img img {
-        width: 100vw;
-        height: 60vh;
-    }
-
     /* Course section */
 
     .course-btn {
         font-size: inherit;
     }
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    /* Headings */
+
+    .hero-text h1, .pastry-text h1, .course-text h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-text h2, {
+        font-size: 2rem;
+    }
+
+    .hero-text p, .pastry-text p, .course-text p {
+        font-size: 1.4rem;
+    }
+
+    /* Course section */
+    .course-text, .pastry-text {
+        padding: 3rem;
+    }
+
+    .course-btn {
+        font-size: 1.3rem;
+    }
