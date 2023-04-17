@@ -170,3 +170,18 @@ nav .fa-solid {
     text-align: center;
 }
 
+.course-btn {
+    display: inline-block;
+    text-decoration: none;
+    color:#fff;
+    border: #fff 1px solid;
+    padding: 12px 20px;
+    font-size: 1.3rem;
+    font-family: Playfair Display, sans-serif;
+    position: relative;
+}
+
+.course-btn:hover {
+    background: #fff; 
+    color: #985C5C; 
+}
