@@ -43,82 +43,101 @@ a {
     color: #fff;
 }
 
-/* headings and logo */
+/* header and navigation */
 
-#logo {
-    float: left;
-    margin: 30px;
+.header {
+    min-height: 45rem;
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../images/hero-image.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
 }
 
-/* navigation links */
-
-.navigation {
-    float: right;
+nav {
+    display: flex;
+    padding: 4% 4%;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
-#menu {
-    font-family: Playfair Display, sans-serif;
-    font-size: 110%;
-    margin-right: 30px;
+nav img {
+    width: 150px;
 }
 
-#menu li {
-    float: left;
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li {
+    text-transform: uppercase;
     list-style: none;
-    margin: 38px 15px 0 0;
+    display: inline-block;
+    padding: 9px 6px;
+    position: relative;
 }
 
-#menu a {
-    text-decoration: none;
+.nav-links ul li a {
     color: #fff;
     background: #A68D60;
-    border: 8px solid #A68D60;
+    border: 9px solid #A68D60;
+    font-family: Playfair Display, sans-serif;
+    transition: 0.6s;
 }
 
-#menu a:hover {
+.nav-links ul li a:hover {
     color: #A68D60;
     background: #fff;
     border: 8px solid #fff;
 }
 
-/* hero image */
+nav .fa-solid {
+    display: none;
+}
 
-.cover-text h2 {
+/* The hero text */
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
     color: #fff;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    width: 60vw;
 }
 
-.hero-image {
-    height: 750px;
-    width: 100%;
-    background: url(../images/hero-image.jpg) no-repeat center center;
-    background-color: #5C4343;
+.hero-text h1 {
+    font-size: 4rem;
 }
 
-.hero-layer {
-    background: rgba(0, 0, 0, 0.6);
-    width: 100%;
-    height: 100%;
-}
+/* Pastry of the month section */
 
-.cover-text-container
-{
-    width: 100%;
+.pastry-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    padding: 0 20px 0 20px;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
 }
 
-.cover-text {
-    color: #fff;
-    font-size: 3rem;
+.pastry-img img {
+    width: 50vw;
+    height: 100vh;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+    background-size: cover;
+}
+
+.pastry-text {
+    margin-right: 0;
+    height: auto;
+    padding: 5%;
     text-align: center;
-    max-width: 40rem;
-    padding-top: 2rem;
-    margin: auto;
-}
-
-.cover-text > p {
-    font-size: 1.6rem;
 }

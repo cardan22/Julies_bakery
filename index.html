@@ -10,20 +10,22 @@
     <meta name="author" content="Caroline Danielsson">
 
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Julie's Bakery</title>
+    <title>Julie's Bakery - Where every bite is a piece of heaven</title>
 </head>
 
 <body>
-    <!-- This is the header : -->
-    <header>
-        <a href="index.html">
-            <h1 id="logo"><img src="assets/images/jb-logo-150x150px.png" alt="Julie's Bakery logo"
-                    aria-label="Go to Julie's Bakery home page. (Opens in the same window)"></h1>
-        </a>
+    <!-- This is the header logo : -->
+    <header class="header">
+        <nav>
+            <a href="index.html">
+                <img src="assets/images/jb-logo-150x150px.png" alt="Julie's Bakery logo"
+                    aria-label="Go to Julie's Bakery home page. (Opens in the same window)">
+            </a>
 
-        <div class="navigation">
-            <nav>
-                <ul id="menu">
+            <!-- This is the navigation links : -->
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
                     <li>
                         <a href="index.html">Home</a>
                     </li>
@@ -34,31 +36,39 @@
                         <a href="#">Contact</a>
                     </li>
                 </ul>
-            </nav>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <!-- This is the hero text : -->
+        <div class="hero-text-container">
+
+            <div class="hero-text">
+                <h1>Welcome to Julie's bakery!</h1><br>
+                <p>At Julie's Bakery, we pride ourselves on using the finest ingredients to create delicious
+                    and mouth-watering treats that will delight your taste buds. We look forward to
+                    welcoming you and sharing our passion for baking with you!</p>
+            </div>
         </div>
     </header>
 
     <!-- This is the main : -->
     <main>
-        <!-- Hero image : -->
-        <section>
-            <div class="hero-image">
-                <div class="hero-layer">
-                    <div class="cover-text-container">
-                        <div class="cover-text">
-                            <h1>Welcome to Julie's bakery!</h1><br>
-                            <p>At Julie's Bakery, we pride ourselves on using the finest ingredients to create delicious
-                                and mouth-watering treats that will delight your taste buds. We look forward to welcoming
-                                you and sharing our passion for baking with you!</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
         <!-- Pastry of the month : -->
         <section>
-            The pastry of the month
+            <div class="pastry-container">
+                <div class="pastry-img">
+                    <img src="assets/images/lemon-pie.jpg" alt="Pastry of the month - Lemon Pie">
+                </div>
+                <div class="pastry-text">
+                    <h1>The pastry of the month</h1><br>
+                    <h2>"Lemon pie"</h2><br>
+                    <p>There's nothing quite like a delicious lemon pie. The tartness of the lemon combined with the
+                        sweetness of the sugar is a perfect balance. The creamy filling and flaky crust are also a
+                        perfect match. This classic dessert is sure to please everyone.</p>
+                    <p><b>Price: 45 kr</b></p>
+                </div>
+            </div>
         </section>
 
         <!-- Baking and pastry classes : -->
