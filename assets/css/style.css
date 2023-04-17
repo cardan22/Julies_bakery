@@ -187,6 +187,16 @@ nav .fa-solid {
     color: #985C5C; 
 }
 
+/* Instagram section */
+
+.instagram-widget {
+    text-align: center;
+    padding-top: 2rem;
+    background: #fff;
+    padding-top: 5%;
+}
+
+
 
 
 /* Media queries for devices smaller than 992px*/
