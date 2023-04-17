@@ -5,6 +5,7 @@
     padding: 0;
     border: none;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 /* body */
@@ -15,11 +16,34 @@ body {
     color: #5C4343;
 }
 
-/* headings and logo */
+/* Heading */
 
-h1, h2 {
+h1, h2, h3 {
     font-family: Playfair Display, sans-serif;
 }
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1.5rem;
+    margin: 10px 0 28px;
+}
+
+a {
+    color: #fff;
+}
+
+/* headings and logo */
 
 #logo {
     float: left;
