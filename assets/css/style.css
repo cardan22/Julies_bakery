@@ -145,7 +145,7 @@ nav .fa-solid {
 
 /* Baking and pastry course section */
 
-.course-column {
+.course-text-column {
     display: flex;
     flex-direction: column;
     background-color: #985C5C;
@@ -268,23 +268,90 @@ nav .fa-solid {
 }
 
 
+
+/* --- Course page --- */
+
+/* Header */
+
+.sub-header {
+    min-height: 45rem;
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../images/baking-class.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+/* The sub header text */
+
+.sub-header-text {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    width: 60vw;
+}
+
+.sub-header-text h1 {
+    font-size: 4rem;
+}
+
+/* Course section */
+
+.course {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+}
+
+.course-column {
+    padding: 1.5rem;
+    background-color: #fff;
+    margin: 1rem;
+    text-align: center;
+}
+
+.course-column img {
+    width: 100%;
+    height: 40vh;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+    background-size: cover;
+}
+
+.course-column h2 {
+    padding: 1rem 0;
+}
+
+.course-column p {
+    font-size: 1.3rem;
+}
+
+
 /* Media queries for devices smaller than 992px*/
 @media only screen and (max-width: 992px) {
     
     /* Hero text */
-    .hero-text {
+    .hero-text, .sub-header-text {
         width: 70vw;
     }
 
-    .hero-text h1, .pastry-text h1, .course-text h1 {
+    .h1 {
         font-size: 3rem;
     }
 
-    .pastry-text h2, .instagram-widget h2 {
+    .h2 {
         font-size: 2rem;
     }
 
-    .hero-text p, .pastry-text p, .course-text p {
+    .p {
         font-size: 1.6rem;
     }
 
@@ -309,6 +376,17 @@ nav .fa-solid {
     .course-btn {
         font-size: 1.5rem;
     }
+
+    /* Course page */
+
+    .course {
+        flex-direction: column;
+    }
+
+
+
+    .course-column img {
+        height: 50vh;
 
     /* Footer */
 
@@ -385,11 +463,11 @@ nav .fa-solid {
 
     /* Headings */
 
-    .hero-text h1, .pastry-text h1, .course-text h1 {
+    .h1 {
         font-size: 3rem;
     }
 
-    .pastry-text h2, .instagram-widget h2 {
+    .h2{
         font-size: 2rem;
     }
 
@@ -419,15 +497,15 @@ nav .fa-solid {
 
     /* Headings */
 
-    .hero-text h1, .pastry-text h1, .course-text h1 {
+    .h1 {
         font-size: 2.4rem;
     }
 
-    .pastry-text h2, .instagram-widget h2 {
+    .h2 {
         font-size: 1.8rem;
     }
 
-    .hero-text p, .pastry-text p, .course-text p {
+    .p {
         font-size: 1.4rem;
     }
 
