@@ -8,7 +8,7 @@
     text-decoration: none;
 }
 
-/* body */
+/* Body */
 
 body {
     font-family: Didact Gothic, sans-serif;
@@ -44,7 +44,7 @@ a {
     color: #fff;
 }
 
-/* header and navigation */
+/* Header and navigation */
 
 .header {
     min-height: 45rem;
@@ -164,9 +164,6 @@ nav .fa-solid {
 }
 
 .course-text {
-    padding: 5% 12%;
-    width: 100%;
-    height: auto;
     padding: 5%;
     text-align: center;
 }
@@ -312,6 +309,18 @@ nav .fa-solid {
         font-size: 1.5rem;
     }
 
+    /* Footer */
+
+    .footer-main {
+        padding: 1rem;
+    }
+
+    .footer-column {
+        padding: 1rem;
+        flex-basis: auto;
+        margin: 0;
+    }
+
     /* Media queries for devices samller than 768px */
 
 @media(max-width: 768px){
@@ -386,6 +395,20 @@ nav .fa-solid {
     .course-btn {
         font-size: inherit;
     }
+
+    /* Footer */
+
+    .footer-main {
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 0;
+    }
+
+    .footer-column {
+        padding: 1rem;
+        flex-basis: auto;
+        margin: 0;
+    }
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -413,3 +436,9 @@ nav .fa-solid {
     .course-btn {
         font-size: 1.3rem;
     }
+
+    .footer-column {
+        padding-top: 2rem;
+
+    }
+}
