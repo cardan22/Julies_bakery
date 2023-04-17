@@ -279,7 +279,7 @@ nav .fa-solid {
         font-size: 3rem;
     }
 
-    .pastry-text h2, {
+    .pastry-text h2 {
         font-size: 2rem;
     }
 
@@ -321,9 +321,11 @@ nav .fa-solid {
         margin: 0;
     }
 
+}
+
     /* Media queries for devices samller than 768px */
 
-@media(max-width: 768px){
+@media(max-width: 768px) {
 
     /* Navigation */
 
@@ -386,7 +388,7 @@ nav .fa-solid {
         font-size: 3rem;
     }
 
-    .pastry-text h2, {
+    .pastry-text h2 {
         font-size: 2rem;
     }
 
@@ -420,7 +422,7 @@ nav .fa-solid {
         font-size: 2.5rem;
     }
 
-    .hero-text h2, {
+    .hero-text h2 {
         font-size: 2rem;
     }
 
@@ -439,6 +441,5 @@ nav .fa-solid {
 
     .footer-column {
         padding-top: 2rem;
-
     }
 }
