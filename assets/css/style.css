@@ -12,7 +12,6 @@
 
 body {
     font-family: Didact Gothic, sans-serif;
-    font-weight: 200;
     color: #5C4343;
     background-color: #FFF2F2;
 }
@@ -391,7 +390,25 @@ nav .fa-solid {
 .submit-btn:hover {
     background: #5C4343; 
     color: #fff;
-}     
+}
+
+/* Quote section */
+
+.quote-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 5rem 10rem;
+    background: #985C5C;
+    color: #fff;
+}
+
+.quote-container p {
+    font-size: 1.3rem;
+    padding-top: 1.8rem;
+    margin: 0;
+}
 
 
 
