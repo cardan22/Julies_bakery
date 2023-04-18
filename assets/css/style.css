@@ -28,6 +28,7 @@ h1 {
 
 h2 {
     font-size: 2rem;
+    padding-bottom: 1.5rem;
 }
 
 h3 {
@@ -267,7 +268,6 @@ nav .fa-solid {
 }
 
 
-
 /* --- Course page --- */
 
 /* Header */
@@ -450,6 +450,27 @@ nav .fa-solid {
 
 .contact-header-text h1 {
     font-size: 4rem;
+}
+
+/* Contact us section */
+
+.contact {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    justify-content: space-evenly;
+}
+
+.contact-column {
+    padding: 1.5rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+.contact-column li, .contact-column a {
+    list-style-type: none;
+    line-height: 0.4rem;
 }
 
 
