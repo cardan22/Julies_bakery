@@ -57,19 +57,51 @@ The Julie's Bakery website is made up of three pages:
 
 ![Footer](/assets/images/readme-images/footer.png)
 
+### Courses page header
+
+* The courses page header includes background image, header and a paragraph.
+* 
+
+![Courses page header](/assets/images/readme-images/courses-header.png)
+
+### Baking and Pastry courses section
+
+* 
+* 
+
+![Baking and Pastry courses section](/assets/images/readme-images/courses-columns.png)
+
+### Signup form 
+
+* 
+* 
+
+![Signup form for courses](/assets/images/readme-images/form.png)
+
+### Quote section
+
+* 
+* 
+
+![Quote section](/assets/images/readme-images/quote.png)
+
 
 # Technologies Used
 
-* HTML
-* CSS
-* JavaScript
+* [HTML](https://sv.wikipedia.org/wiki/HTML) 
+* [CSS](https://sv.wikipedia.org/wiki/Cascading_Style_Sheets)
+* [JavaScript](https://sv.wikipedia.org/wiki/Javascript)
 
 # Testing
 
 
 # Development and Deployment
 
+# Media
 
+The photos are downloaded from [Unsplash](https://unsplash.com/) and are available for free use, for commercial or non-commercial purposes.
+
+The logo are designed by myself.
 
 # Credits
 
