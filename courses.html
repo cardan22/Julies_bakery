@@ -95,29 +95,37 @@
             <div class="form-container">
                 <form action="https://formdump.codeinstitute.net/" method="POST" class="signup-form">
                     <h2>Join our class</h2>
-                    <label for="fname">First Name</label>
-                    <input id="fname" type="text" name="first_name" required class="text-input" required>
+                    <div class="form-group">
+                        <label for="fname">First Name</label>
+                        <input id="fname" type="text" name="first_name" required class="text-input" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="lname">Last Name</label>
+                        <input id="lname" type="text" name="last_name" required class="text-input" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input id="email" type="email" name="email_address" required class="text-input" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input id="phone" type="tel" name="phone" required class="text-input" required>
+                    </div>
 
-                    <label for="lname">Last Name</label>
-                    <input id="lname" type="text" name="last_name" required class="text-input" required>
-
-                    <label for="email">Email</label>
-                    <input id="email" type="email" name="email_address" required class="text-input" required>
-
-                    <label for="phone">Phone</label>
-                    <input id="phone" type="tel" name="phone" required class="text-input" required>
-                    
                     <h3>Choose course</h3>
+                    <div class="chechbox">
                     <input type="checkbox" id="course1" name="course1" value="bread" required>
-                    <label for="course1">Sourdough bread</label><br>
-
-                    <input type="checkbox" id="course2" name="course2" value="pastry">
-                    <label for="course2">Pastry</label><br>
-
-                    <input type="checkbox" id="course3" name="course3" value="decorate">
-                    <label for="course3">Learn to decorate</label><br>
+                    <label for="course1">Sourdough bread</label>
                     
+                    <input type="checkbox" id="course2" name="course2" value="pastry">
+                    <label for="course2">Pastry</label>
+                    
+                    
+                    <input type="checkbox" id="course3" name="course3" value="decorate">
+                    <label for="course3">Learn to decorate</label>
+                    </div>
                     <input type="submit" value="Sign up" class="submit-button">
+                    
 
                 </form>
             </div>
