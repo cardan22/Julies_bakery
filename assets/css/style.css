@@ -357,6 +357,7 @@ nav .fa-solid {
 .signup-form {
     background-color: rgba(255, 255, 255, 0.8);
     padding: 3rem 5rem;
+    margin: 1rem;
 }
 
 .form-group {
@@ -368,7 +369,6 @@ nav .fa-solid {
 
 .text-input {
     background: transparent;
-    width: 40vw;
     height: 2rem;
     border: #5C4343 solid 1px;
     border-radius: 2px;
@@ -421,15 +421,15 @@ nav .fa-solid {
         width: 70vw;
     }
 
-    .h1, .hero-text h1, .sub-header-text h1 {
+    .h1, .hero-text h1, .course-text h1, .pastry-text h1, .sub-header-text h1 {
         font-size: 3rem;
     }
 
-    .h2 {
+    .h2, .instagram-widget h2, .course-column h2 {
         font-size: 2rem;
     }
 
-    .p {
+    .p, .course-text p, .pastry-text p {
         font-size: 1.6rem;
     }
 
@@ -539,18 +539,55 @@ nav .fa-solid {
 
     /* Headings */
 
-    .h1, .hero-text h1, .sub-header-text h1 {
+    .h1, .hero-text h1, .course-text h1, .pastry-text h1, .sub-header-text h1 {
         font-size: 3rem;
     }
 
-    .h2{
+    .h2, .instagram-widget h2, .course-column h2, .form-container h2 {
         font-size: 2rem;
+    }
+
+    .p, .course-text p, .pastry-text p, .sub-header-text p {
+        font-size: 1.2rem;
     }
 
     /* Course section */
 
     .course-btn {
         font-size: inherit;
+    }
+
+    /* Courses page */
+
+    .course {
+        padding: 1rem;
+    }
+
+    .course-column img {
+        height: auto;
+    }
+
+    .form-container {
+        padding: 0;
+    }
+
+    .signup-form {
+        padding: 2.4rem;
+        margin: 2rem;
+    }
+
+    .quote-container {
+        padding: 3rem;
+    }
+
+    .quote-container h2 {
+        font-size: 1.1rem;
+        letter-spacing: 0.1px;
+    }
+
+    .quote-container p {
+        font-size: 1rem;
+        padding-top: 1rem;
     }
 
     /* Footer */
@@ -573,16 +610,16 @@ nav .fa-solid {
 
     /* Headings */
 
-    .h1, .hero-text h1, .sub-header-text h1 {
+    .h1, .hero-text h1, .course-text h1, .pastry-text h1, .sub-header-text h1 {
         font-size: 2.4rem;
     }
 
-    .h2 {
-        font-size: 1.8rem;
+    .h2, .instagram-widget h2, .course-column h2, .form-container h2 {
+        font-size: 1.6rem;
     }
 
-    .p {
-        font-size: 1.4rem;
+    .p, .course-text p, .pastry-text p  {
+        font-size: 1rem;
     }
 
     /* Course section */
