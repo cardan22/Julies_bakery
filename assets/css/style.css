@@ -351,12 +351,12 @@ nav .fa-solid {
 }
 
 .form-container h3 {
-    padding-bottom: 1rem;
+    padding: 0.5rem 0 1rem;
 }
 
 .signup-form {
     background-color: rgba(255, 255, 255, 0.8);
-    padding: 3rem 5rem;
+    padding: 4rem 8rem;
     margin: 1rem;
 }
 
@@ -365,6 +365,7 @@ nav .fa-solid {
     flex-direction: column;
     padding-bottom: 1rem;
     font-weight: bold;
+    min-width: 40vw;
 }
 
 .text-input {
@@ -372,11 +373,23 @@ nav .fa-solid {
     height: 2rem;
     border: #5C4343 solid 1px;
     border-radius: 2px;
+    padding-right: 1rem;
 }
 
-.chechbox label {
-    padding: 0.2rem;
+.text-input:hover {
+    border-color: #A68D60;
 }
+
+.chechbox {
+    display: flex;
+}
+
+
+.chechbox label {
+    padding: 0.3rem;
+
+}
+
 
 .submit-btn {
     color:#fff;
@@ -450,6 +463,10 @@ nav .fa-solid {
     }
 
     /* Course section */
+
+    .course-text {
+        padding: 3rem;
+    }
 
     .course-btn {
         font-size: 1.5rem;
