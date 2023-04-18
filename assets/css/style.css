@@ -337,10 +337,13 @@ nav .fa-solid {
 /* Form section */
 
 .form-container {
-    padding: 4rem;
+    padding: 5rem 0;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../images/form-bg.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 .form-container h2 {
@@ -348,30 +351,48 @@ nav .fa-solid {
     padding-bottom: 2rem;
 }
 
+.form-container h3 {
+    padding-bottom: 1rem;
+}
+
 .signup-form {
-    background-color: rgba(255, 255, 255, 0.6);
-    max-width: 60vw;
-    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 3rem 5rem;
 }
 
 .form-group {
     display: flex;
     flex-direction: column;
-    padding: 0.5rem;
+    padding-bottom: 1rem;
+    font-weight: bold;
 }
 
 .text-input {
     background: transparent;
-    width: 50vw;
+    width: 40vw;
     height: 2rem;
-    border: #843232 solid 1px;
+    border: #5C4343 solid 1px;
     border-radius: 2px;
 }
 
 .chechbox label {
     padding: 0.2rem;
-    
 }
+
+.submit-btn {
+    color:#fff;
+    background: #A68D60;
+    padding: 0.4rem 1rem;
+    font-size: 1.2rem;
+    font-family: Playfair Display, sans-serif;
+    margin-top: 1.2rem;
+}
+
+.submit-btn:hover {
+    background: #5C4343; 
+    color: #fff;
+}     
+
 
 
 
