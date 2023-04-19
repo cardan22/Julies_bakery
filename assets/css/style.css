@@ -47,7 +47,6 @@ a {
 /* Header and navigation */
 
 .header {
-    min-height: 45rem;
     height: 100vh;
     width: 100%;
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../images/hero-image.jpg);
@@ -85,7 +84,6 @@ nav img {
     background: #A68D60;
     border: 9px solid #A68D60;
     font-family: Playfair Display, sans-serif;
-    transition: 0.6s;
 }
 
 .nav-links ul li a:hover {
@@ -266,7 +264,6 @@ nav .fa-solid {
     text-align: center;
     margin: 1rem;
 }
-
 
 /* --- Course page --- */
 
@@ -470,7 +467,14 @@ nav .fa-solid {
 
 .contact-column li, .contact-column a {
     list-style-type: none;
-    line-height: 0.4rem;
+    line-height: 1rem;
+    font-size: 1.5rem;
+    margin: 10px 0 28px;
+    color:#482929;
+}
+
+.contact-column a:hover {
+    color: #A68D60;
 }
 
 
@@ -579,7 +583,7 @@ nav .fa-solid {
         height: 100vh;
         width: 200px;
         top: 0;
-        right: -200px;
+        right: -250px;
         text-align: left;
         z-index: 2;
         font-size: 20px;
