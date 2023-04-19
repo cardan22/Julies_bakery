@@ -220,7 +220,7 @@ nav .fa-solid {
 }
 
 .footer-column img {
-    width: auto;
+    width: 150px;
     height: auto;
     object-fit: cover;
     object-position: center;
@@ -680,7 +680,7 @@ nav .fa-solid {
     }
 
     .course-column img {
-        height: auto;
+        height: 40vh;
     }
 
     .form-container {
@@ -731,7 +731,6 @@ nav .fa-solid {
 
     /* Headings */
 
-    .h1,
     .hero-text h1,
     .course-text h1,
     .pastry-text h1,
@@ -740,14 +739,12 @@ nav .fa-solid {
         font-size: 2.4rem;
     }
 
-    .h2,
     .instagram-widget h2,
     .course-column h2,
     .form-container h2 {
         font-size: 1.6rem;
     }
 
-    .p,
     .course-text p,
     .pastry-text p {
         font-size: 1rem;
