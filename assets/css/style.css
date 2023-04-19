@@ -18,7 +18,9 @@ body {
 
 /* Heading */
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: Playfair Display, sans-serif;
 }
 
@@ -49,7 +51,7 @@ a {
 .header {
     height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../images/hero-image.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/hero-image.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -105,7 +107,7 @@ nav .fa-solid {
     position: absolute;
     top: 60%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     text-align: center;
     width: 60vw;
 }
@@ -147,7 +149,7 @@ nav .fa-solid {
     display: flex;
     flex-direction: column;
     background-color: #985C5C;
-    color:#fff;
+    color: #fff;
     width: 100%;
     height: auto;
 }
@@ -169,7 +171,7 @@ nav .fa-solid {
 .course-btn {
     display: inline-block;
     text-decoration: none;
-    color:#fff;
+    color: #fff;
     border: #fff 1px solid;
     padding: 12px 20px;
     font-size: 1.3rem;
@@ -178,8 +180,8 @@ nav .fa-solid {
 }
 
 .course-btn:hover {
-    background: #fff; 
-    color: #985C5C; 
+    background: #fff;
+    color: #985C5C;
 }
 
 /* Instagram section */
@@ -196,7 +198,7 @@ nav .fa-solid {
 }
 
 .eapps-instagram-feed-container {
-    border:#A68D60 1.5px solid;
+    border: #A68D60 1.5px solid;
     padding: 2rem;
 }
 
@@ -236,7 +238,7 @@ nav .fa-solid {
 }
 
 .footer-container a:hover {
-    color:#A68D60;
+    color: #A68D60;
 }
 
 .footer-container li {
@@ -252,7 +254,7 @@ nav .fa-solid {
 
 .footer-bottom {
     display: flex;
-    color:#fff;
+    color: #fff;
     background: #311d1d;
     justify-content: center;
 }
@@ -273,7 +275,7 @@ nav .fa-solid {
     min-height: 35rem;
     height: 80vh;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../images/baking-class.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/baking-class.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -288,7 +290,7 @@ nav .fa-solid {
     position: absolute;
     top: 60%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     text-align: center;
     width: 60vw;
 }
@@ -337,7 +339,7 @@ nav .fa-solid {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../images/form-bg.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/form-bg.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -386,7 +388,7 @@ nav .fa-solid {
 }
 
 .submit-btn {
-    color:#fff;
+    color: #fff;
     background: #A68D60;
     padding: 0.4rem 1rem;
     font-size: 1.2rem;
@@ -395,7 +397,7 @@ nav .fa-solid {
 }
 
 .submit-btn:hover {
-    background: #5C4343; 
+    background: #5C4343;
     color: #fff;
 }
 
@@ -425,7 +427,7 @@ nav .fa-solid {
     min-height: 35rem;
     height: 80vh;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../images/contact.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/contact.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -440,7 +442,7 @@ nav .fa-solid {
     position: absolute;
     top: 60%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     text-align: center;
     width: 60vw;
 }
@@ -461,45 +463,51 @@ nav .fa-solid {
 
 .contact-column {
     padding: 1.5rem;
-    margin: 1rem;
     text-align: center;
 }
 
-.contact-column li, .contact-column a {
-    list-style-type: none;
-    line-height: 1rem;
+.contact-column p,
+.contact-column a {
     font-size: 1.5rem;
-    margin: 10px 0 28px;
-    color:#482929;
+    line-height: 1.5rem;
+    margin: 0;
+    color: #482929;
 }
 
 .contact-column a:hover {
     color: #A68D60;
 }
 
-
 /* Media queries for devices smaller than 992px*/
 @media only screen and (max-width: 992px) {
-    
+
     /* Hero text */
-    .hero-text, .sub-header-text {
+    .hero-text,
+    .sub-header-text,
+    .contact-header-text {
         width: 70vw;
     }
 
-    .h1, .hero-text h1, .course-text h1, .pastry-text h1, .sub-header-text h1, .contact-header-text h1 {
+    .hero-text h1,
+    .course-text h1,
+    .pastry-text h1,
+    .sub-header-text h1,
+    .contact-header-text h1 {
         font-size: 3rem;
     }
 
-    .h2, .instagram-widget h2, .course-column h2 {
+    .instagram-widget h2,
+    .course-column h2 {
         font-size: 2rem;
     }
 
-    .p, .course-text p, .pastry-text p {
+    .course-text p,
+    .pastry-text p {
         font-size: 1.6rem;
     }
 
     /* Pastry of the month section */
-    
+
     .pastry-container {
         flex-direction: column;
         height: auto;
@@ -534,6 +542,22 @@ nav .fa-solid {
         height: 50vh;
     }
 
+    /* Contact page */
+
+    .contact {
+        padding: 0;
+    }
+
+    .contact-column h2 {
+        font-size: 1.8rem;
+    }
+
+    .contact-column p,
+    .contact-column a {
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+
     /* Footer */
 
     .footer-main {
@@ -547,7 +571,7 @@ nav .fa-solid {
     }
 }
 
-    /* Media queries for devices samller than 768px */
+/* Media queries for devices samller than 768px */
 
 @media(max-width: 768px) {
 
@@ -604,19 +628,31 @@ nav .fa-solid {
         color: #A68D60;
         background: transparent;
         border: none;
-    }   
+    }
 
     /* Headings */
 
-    .h1, .hero-text h1, .course-text h1, .pastry-text h1, .sub-header-text h1, .contact-header-text h1 {
+    .hero-text h1,
+    .course-text h1,
+    .pastry-text h1,
+    .sub-header-text h1,
+    .contact-header-text h1 {
         font-size: 3rem;
     }
 
-    .h2, .instagram-widget h2, .course-column h2, .form-container h2 {
+    .instagram-widget h2,
+    .course-column h2,
+    .form-container h2,
+    .contact-column h2 {
         font-size: 2rem;
     }
 
-    .p, .course-text p, .pastry-text p, .sub-header-text p, .contact-header-text p {
+    .course-text p,
+    .pastry-text p,
+    .sub-header-text p,
+    .contact-header-text p,
+    .contact-column p,
+    .contact-column a  {
         font-size: 1.2rem;
     }
 
@@ -659,6 +695,12 @@ nav .fa-solid {
         padding-top: 1rem;
     }
 
+    /* Contact page */
+
+    .contact {
+        flex-direction: column;
+    }
+
     /* Footer */
 
     .footer-main {
@@ -679,20 +721,31 @@ nav .fa-solid {
 
     /* Headings */
 
-    .h1, .hero-text h1, .course-text h1, .pastry-text h1, .sub-header-text h1, .contact-header-text h1 {
+    .h1,
+    .hero-text h1,
+    .course-text h1,
+    .pastry-text h1,
+    .sub-header-text h1,
+    .contact-header-text h1 {
         font-size: 2.4rem;
     }
 
-    .h2, .instagram-widget h2, .course-column h2, .form-container h2 {
+    .h2,
+    .instagram-widget h2,
+    .course-column h2,
+    .form-container h2 {
         font-size: 1.6rem;
     }
 
-    .p, .course-text p, .pastry-text p  {
+    .p,
+    .course-text p,
+    .pastry-text p {
         font-size: 1rem;
     }
 
     /* Course section */
-    .course-text, .pastry-text {
+    .course-text,
+    .pastry-text {
         padding: 3rem;
     }
 
