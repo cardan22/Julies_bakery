@@ -493,6 +493,28 @@ nav .fa-solid {
     color: #A68D60;
 }
 
+/* Scroll to top btn */
+
+#topBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: #A68D60; 
+    color: #fff; 
+    cursor: pointer; 
+    padding: 0.6rem; 
+    border: 2px; 
+    font-size: 0.9rem; 
+  }
+  
+  #topBtn:hover {
+    background: #985C5C;
+  }
+
 /* Media queries for devices smaller than 992px*/
 @media only screen and (max-width: 992px) {
 
