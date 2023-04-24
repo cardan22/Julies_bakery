@@ -461,7 +461,7 @@ nav .fa-solid {
     margin: auto;
     display: flex;
     flex-direction: row;
-    padding: 4rem 2rem;
+    padding: 3rem;
     justify-content: space-evenly;
 }
 
@@ -472,8 +472,8 @@ nav .fa-solid {
 
 .contact-column p,
 .contact-column a {
-    font-size: 1.5rem;
-    line-height: 1.5rem;
+    font-size: 1.2rem;
+    line-height: 1rem;
     margin: 0;
     color: #482929;
 }
@@ -789,6 +789,12 @@ nav .fa-solid {
         font-size: 1.3rem;
     }
 
+    .signup-form {
+        margin: 2rem;
+        padding: 3rem;
+    }
+
+    /* Footer */
     .footer-column {
         padding-top: 2rem;
     }
