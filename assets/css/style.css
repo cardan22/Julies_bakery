@@ -593,7 +593,6 @@ nav .fa-solid {
     .contact-column p,
     .contact-column a {
         font-size: 1rem;
-        line-height: 1rem;
     }
 
     /* Footer */
@@ -612,6 +611,10 @@ nav .fa-solid {
 /* Media queries for devices samller than 768px */
 
 @media(max-width: 768px) {
+
+    body {
+        overflow-x: hidden;
+    }
 
     /* Navigation */
 
