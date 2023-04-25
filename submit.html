@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A local bakery in Linkoping, Sweden">
+    <meta name="keywords" content="Julies bakery, bakery, pastry, baking classes, Linkoping, Sweden">
+    <meta name="author" content="Caroline Danielsson">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Julie's Bakery - Where every bite is a piece of heaven</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+</head>
+
+<body>
+    <!-- This is the header logo : -->
+    <header class="submit-header">
+        <nav>
+            <a href="index.html">
+                <img src="assets/images/jb-logo-150x150px.svg" alt="Julie's Bakery logo"
+                    aria-label="Go to Julie's Bakery home page. (Opens in the same window)">
+            </a>
+
+            <!-- This is the navigation links : -->
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()" aria-label="Xmark to hide menu"></i>
+                <ul>
+                    <li>
+                        <a href="index.html"
+                            aria-label="Go to Julie's Bakery home page. (Opens in the same window)">Home</a>
+                    </li>
+                    <li>
+                        <a href="courses.html"
+                            aria-label="Go to Julie's Bakery courses page. (Opens in the same window)">Courses</a>
+                    </li>
+                    <li>
+                        <a href="contact.html"
+                            aria-label="Go to Julie's Bakery contact page. (Opens in the same window)">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()" aria-label="Hamburger icon to show menu"></i>
+        </nav>
+
+        <!-- This is the header text : -->
+        <div class="sub-header-container">
+
+            <div class="sub-header-text">
+                <h1>Thank you!</h1><br>
+                <p> We hope that this course will provide you with both useful knowledge and an enjoyable experience,
+                    where you can learn about the art and science of baking. Wishing you all the best and
+                    hope that you create many delicious treats in the future!</p>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- font awesome script -->
+    <script src="https://kit.fontawesome.com/07dfefa3d8.js" crossorigin="anonymous"></script>
+
+    <!-- Toggle menu script -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-250px";
+        }
+    </script>
+
+</body>
+</html>
