@@ -30,7 +30,7 @@ My goal was to create a website to feel like the bakery and show how they are re
 
 ## Wireframes
 * I used Figma to design wireframes, which helped me to create a visual representation of the website's appearance.
-* The website was completed with only minor differences from the original plan, although a few parts were exluded from the footer.
+* The website was completed with only minor differences from the original plan, although a few parts were exluded from the footer and some styling including the Instagram feed and form.
 
 ![Wireframes for Jule's Bakery website](/assets/images/readme-images/jb-wireframes.png)
 
