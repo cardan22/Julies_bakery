@@ -1,6 +1,6 @@
 # Julie's Bakery
 
-Link to live website: [Julie's Bakery](https://cardan22.github.io/Julies_bakery/)
+Link to the website: [Julie's Bakery](https://cardan22.github.io/Julies_bakery/)
 
 ![Mockup of Julie's Bakery website](/assets/images/readme-images/julies-bakery-mockup-light.png)
 
@@ -32,18 +32,20 @@ My goal was to create a website to feel like the bakery and show how they are re
 * I used Figma to design wireframes, which helped me to create a visual representation of the website's appearance.
 * The website was completed with only minor differences from the original plan, although a few parts were exluded from the footer.
 
-(screenshot here)
+![Wireframes for Jule's Bakery website](/assets/images/readme-images/jb-wireframes.png)
 
 ## Colours
 I got inspiration from the specific color palette below but modified it to match Julie's Bakery's branding.
 
-(Screenshot here)
+![Colour palette](/assets/images/readme-images/colours.png)
 
 ## Typography
 Using Playfair Display for headings and Didact Gothic for body text results in a modern and seamless design that connects with the Julie's bakery's logo and brand, while also making the text easy to read and understand.
 
 ## Logo
-* The bakery's logo, which features a simple text and a lemon symbol, was personally designed by me.
+The bakery's logo, which features a simple text and a lemon symbol, was personally designed by me.
+
+![Julie's Bakery logo](/assets/images/readme-images/jb-logo-150x150px.png)
 
 # Features
 The Julie's Bakery website is made up of three pages:
@@ -88,7 +90,7 @@ The Julie's Bakery website is made up of three pages:
 * This section displays Julie's Bakery's Instagram feed.
 * Keeps visitors up-to-date with the latest news and events from Julie's Bakery, through their Instagram account. It's automatically updated on a weekly basis.
 
-(Screenshot here)
+![Julie's Bakery Instagram feed](/assets/images/readme-images/instagram.png)
 
 ### Footer
 
@@ -130,35 +132,35 @@ The Julie's Bakery website is made up of three pages:
 * The contact us page header includes background image, header and a paragraph.
 * This section includes a photo and brief text explaining why the user might want to contact the bakery.
 
-(screenshot here)
+![Contact us header](/assets/images/readme-images/contact-header.png)
 
 ### Contact section
 
 * This section consists of three blocks, containing text and icons.
 * This section gives important information to users who may be interested in visiting or contacting the bakery. By displaying the bakery's opening hours, location, and contact information, the website makes it easy for users to plan their visit or get in touch with any questions or concerns they may have.
 
-(screenshot here)
+![Contact section](/assets/images/readme-images/contact-section.png)
 
 ### Google map
 
 * The section includes an embedded Google Map with the bakery's address.
 * The Google Map helps users to visually locate the bakery's address and navigate to it more easily.
 
-(screenshot here)
+![Google map](/assets/images/readme-images/google-map.png)
 
 ### Submit page
 
 * The submit page include a photograph and a short thank you text, navigation and logo.
 * Providing users with a confirmation message after they have submitted their application of the course.
 
-(Screenshot here)
+![Submit page](/assets/images/readme-images/submit.png)
 
 ### Back to top botton
 
 * A sticky back to top button
 * The button remains visible on the screen as the user scrolls, allowing them to easily navigate back to the top of the page with just one click. 
 
-(Screenshot here)
+![Back to top botton](/assets/images/readme-images/botton.png)
 
 # Technologies Used
 
