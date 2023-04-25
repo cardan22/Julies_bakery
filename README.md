@@ -1,9 +1,49 @@
 # Julie's Bakery
 
-(Screenshot here)
+Link to live website: [Julie's Bakery](https://cardan22.github.io/Julies_bakery/)
+
+![Mockup of Julie's Bakery website](/assets/images/readme-images/julies-bakery-mockup-light.png)
 
 # About
 The Julie's Bakery website is made to feel cozy and friendly, just like the bakery itself. It's easy to use and helps visitors find important information like course sign-ups, location, and how to contact the bakery. The website aims to make customers happy and keep them coming back by providing a fun and easy online experience that matches the warm and welcoming feeling of the bakery. 
+
+# UX
+
+## User Demographic
+This website is for:
+* People interested in baked goods and desserts, such as cakes, pastries, and bread.
+* People who enjoy baking as a hobby and want to learn new techniques and recipes by taking a course.
+* People who plan to visit the bakery. 
+
+## User stories
+* As a new resident in the area, I want to easily access information about Julie's Bakery, including its location and hours of operation, so that I can plan my visit.
+* As a regular customer of Julie's Bakery, I want to be able to view the bakery's latest specials and promotions, so that I can take advantage of any discounts or new menu items.
+* As a person interested in learning new baking skills, I want to find a baking course that I can enroll in so that I can improve my baking knowledge and techniques.
+
+## User goals
+* To find information about Julie's Bakery, such as it’s location, opening hours in order to plan a visit to the bakery
+* Sign up to baking and pastry courses
+* Contact the bakery
+
+## Design
+My goal was to create a website to feel like the bakery and show how they are related. I also want visitors to easily understand what the website is for and what it's all about.
+
+## Wireframes
+* I used Figma to design wireframes, which helped me to create a visual representation of the website's appearance.
+* The website was completed with only minor differences from the original plan, although a few parts were exluded from the footer.
+
+(screenshot here)
+
+## Colours
+I got inspiration from the specific color palette below but modified it to match Julie's Bakery's branding.
+
+(Screenshot here)
+
+## Typography
+Using Playfair Display for headings and Didact Gothic for body text results in a modern and seamless design that connects with the Julie's bakery's logo and brand, while also making the text easy to read and understand.
+
+## Logo
+* The bakery's logo, which features a simple text and a lemon symbol, was personally designed by me.
 
 # Features
 The Julie's Bakery website is made up of three pages:
@@ -66,14 +106,14 @@ The Julie's Bakery website is made up of three pages:
 
 ### Baking and Pastry courses section
 
-* This section features three primary courses that are presented in separate blocks with text and photos: Sourdough Bread, Pastry Course, and Learning to Decorate. 
-* Provide users with an overview of the courses offered on the website, generate interest and encourage them to read more about the courses.
+* This section contains three blocks with text and photos: Sourdough Bread, Pastry Course, and Learning to Decorate. 
+* TProvides users with details about the upcoming baking and pastry course, including information on course content, dates and times, and the course fee.
 
 ![Baking and Pastry courses section](/assets/images/readme-images/courses-columns.png)
 
 ### Signup form 
 
-* Signup form for the courses
+* Signup form for the courses.
 * The signup form enables users to register for one or multiple baking classes by submitting their full name, phone number, email address, and course.
 
 ![Signup form for courses](/assets/images/readme-images/form.png)
@@ -106,6 +146,20 @@ The Julie's Bakery website is made up of three pages:
 
 (screenshot here)
 
+### Submit page
+
+* The submit page include a photograph and a short thank you text, navigation and logo.
+* Providing users with a confirmation message after they have submitted their application of the course.
+
+(Screenshot here)
+
+### Back to top botton
+
+* A sticky back to top button
+* The button remains visible on the screen as the user scrolls, allowing them to easily navigate back to the top of the page with just one click. 
+
+(Screenshot here)
+
 # Technologies Used
 
 * [HTML](https://sv.wikipedia.org/wiki/HTML) 
@@ -113,6 +167,20 @@ The Julie's Bakery website is made up of three pages:
 * [JavaScript](https://sv.wikipedia.org/wiki/Javascript)
 
 # Testing
+
+* 
+* 
+
+## List of main issues:
+
+The toggle menu fails to remain hidden off-screen, even when it is supposed to be hidden.
+* The solution was to add the CSS code "body { overflow-x: hidden; }" to the media query. This will disable horizontal scrolling and ensure that the toggle menu remains hidden off-screen.
+
+The image in the flexbox was leaving a small space at the bottom. 
+* The solution was to add the following CSS property: { display: block; }.
+
+The logo was appearing pixelated and unclear.
+* The solution was to use SVG file for the logo instead of PNG.
 
 
 # Development and Deployment
@@ -130,15 +198,21 @@ To deploy the project, follow the "Creating your site" instructions provided in 
 
 You can find the link to the project [here.](https://cardan22.github.io/Julies_bakery/)
 
-# Media
-
-* The photos are downloaded from [Unsplash](https://unsplash.com/) and are available for free use, for commercial or non-commercial purposes.
-
-* The logo are designed by myself.
-
 # Credits
 
 ## Content
 
+* I followed a tutorial by [@EasyTutorialsVideo](https://www.youtube.com/watch?v=oYRda7UtuhA) on YouTube to create the header section with an image and text.
+* To implement the toggle menu, I used the same tutorial as above. [@EasyTutorialsVideo](https://www.youtube.com/watch?v=oYRda7UtuhA)
+* My mentor recommended using flexbox for the layout, and I practiced using it by playing the game [Flexbox Froggy](https://flexboxfroggy.com/).
+* For the Instagram feed widget, I used the service provided by [ElfSight](https://elfsight.com/), which offers customizable social media widgets that can be easily embedded into websites.
+* I got the code snippet for the "back to top button" from [w3schools.com](https://www.w3schools.com/howto/howto_js_scroll_to_top.asp).
 
-[def]: http://url/to/img.png
+## Media
+
+* The photos are downloaded from [Unsplash](https://unsplash.com/) and are available for free use, for commercial or non-commercial purposes.
+* The logo are designed by myself.
+
+
+
+[Back to top](#julies-bakery)
