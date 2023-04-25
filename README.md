@@ -60,31 +60,51 @@ The Julie's Bakery website is made up of three pages:
 ### Courses page header
 
 * The courses page header includes background image, header and a paragraph.
-* 
+* The combination of the photo and text captures the user's attention and motivates them to navigate and read more on the webpage.
 
 ![Courses page header](/assets/images/readme-images/courses-header.png)
 
 ### Baking and Pastry courses section
 
-* 
-* 
+* This section features three primary courses that are presented in separate blocks with text and photos: Sourdough Bread, Pastry Course, and Learning to Decorate. 
+* Provide users with an overview of the courses offered on the website, generate interest and encourage them to read more about the courses.
 
 ![Baking and Pastry courses section](/assets/images/readme-images/courses-columns.png)
 
 ### Signup form 
 
-* 
-* 
+* Signup form for the courses
+* The signup form enables users to register for one or multiple baking classes by submitting their full name, phone number, email address, and course.
 
 ![Signup form for courses](/assets/images/readme-images/form.png)
 
 ### Quote section
 
-* 
-* 
+* This section contains a headline and a paragraph.
+* This section includes a quote from a student who has taken a baking class at Julie's Bakery, providing users with feedback on the course and encouraging them to enroll. The quotation will be updated regularly.
 
 ![Quote section](/assets/images/readme-images/quote.png)
 
+### Contact us header
+
+* The contact us page header includes background image, header and a paragraph.
+* This section includes a photo and brief text explaining why the user might want to contact the bakery.
+
+(screenshot here)
+
+### Contact section
+
+* This section consists of three blocks, containing text and icons.
+* This section gives important information to users who may be interested in visiting or contacting the bakery. By displaying the bakery's opening hours, location, and contact information, the website makes it easy for users to plan their visit or get in touch with any questions or concerns they may have.
+
+(screenshot here)
+
+### Google map
+
+* The section includes an embedded Google Map with the bakery's address.
+* The Google Map helps users to visually locate the bakery's address and navigate to it more easily.
+
+(screenshot here)
 
 # Technologies Used
 
@@ -97,14 +117,28 @@ The Julie's Bakery website is made up of three pages:
 
 # Development and Deployment
 
+The development environment used for this project was GitPod. Regular commits and pushes to GitHub were performed to manage version control and track the development stage. A Code Institute-provided template was used to set up the GitPod environment.
+The live version of the project is deployed at GitHub pages.
+
+To deploy the project, follow the "Creating your site" instructions provided in GitHub Docs, which involved these steps:
+1.	Sign in to [GitHub](https://github.com/).
+2.	Find the repository that you want to deploy.
+3.	Click on "Settings" at the top of the repository.
+4.	Scroll down to the "GitHub Pages" section and click "Check it out here!"
+5.	In the "Source" section, select "main" as the branch and "root" as the folder, then click "Save".
+6.	The website will be deployed, and the page will automatically refresh to display the link to the live project.
+
+You can find the link to the project [here.](https://cardan22.github.io/Julies_bakery/)
+
 # Media
 
-The photos are downloaded from [Unsplash](https://unsplash.com/) and are available for free use, for commercial or non-commercial purposes.
+* The photos are downloaded from [Unsplash](https://unsplash.com/) and are available for free use, for commercial or non-commercial purposes.
 
-The logo are designed by myself.
+* The logo are designed by myself.
 
 # Credits
 
-## Great sources
+## Content
+
 
 [def]: http://url/to/img.png
