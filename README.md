@@ -155,10 +155,10 @@ The Julie's Bakery website is made up of three pages:
 
 ![Submit page](/assets/images/readme-images/submit.png)
 
-### Back to top botton
+### Back to top button
 
-* A sticky back to top button
-* The button remains visible on the screen as the user scrolls, allowing them to easily navigate back to the top of the page with just one click. 
+* A sticky back to top button.
+* The button remains visible on the screen as the user scrolls, allowing the user to easily navigate back to the top of the page with just one click. 
 
 ![Back to top botton](/assets/images/readme-images/botton.png)
 
@@ -215,6 +215,8 @@ You can find the link to the project [here.](https://cardan22.github.io/Julies_b
 * The photos are downloaded from [Unsplash](https://unsplash.com/) and are available for free use, for commercial or non-commercial purposes.
 * The logo are designed by myself.
 
+## Other
 
+* 
 
 [Back to top](#julies-bakery)
