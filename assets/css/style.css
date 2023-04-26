@@ -543,6 +543,7 @@ nav .fa-solid {
 @media only screen and (max-width: 992px) {
 
     /* Heading and font-size */
+
     .hero-text,
     .sub-header-text,
     .contact-header-text {
@@ -585,10 +586,14 @@ nav .fa-solid {
 
     .pastry-img img {
         width: 100vw;
-        height: 60vh;
+        height: 30vh;
     }
 
     /* Course section */
+
+    .course-img img {
+        height: 30vh;
+    }
 
     .course-text {
         padding: 3rem;
@@ -670,7 +675,7 @@ nav .fa-solid {
         position: absolute;
         background: #A68D60;
         height: 100vh;
-        width: 200px;
+        width: 40vw;
         top: 0;
         right: 0;
         text-align: left;
@@ -707,7 +712,7 @@ nav .fa-solid {
     .pastry-text h2,
     .course-text h2,
     .instagram-widget h2,
-    .form-container h2, {
+    .form-container h2 {
         font-size: 2rem;
     }
 
@@ -729,7 +734,7 @@ nav .fa-solid {
     /* Course section */
 
     .course-btn {
-        font-size: inherit;
+        font-size: 1.2rem;
     }
 
     /* Courses page */
@@ -817,7 +822,15 @@ nav .fa-solid {
         font-size: 1rem;
     }
 
+    /* Header */
+    .hero-text,
+    .sub-header-text,
+    .contact-header-text {
+        width: 70vw;
+    }
+
     /* Course section */
+
     .course-text,
     .pastry-text {
         padding: 3rem;
@@ -830,6 +843,10 @@ nav .fa-solid {
     .signup-form {
         margin: 2rem;
         padding: 2rem;
+    }
+
+    .checkbox {
+        line-height: 1.5rem;
     }
 
     /* Instagram widget */
