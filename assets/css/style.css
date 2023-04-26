@@ -53,7 +53,7 @@ a {
     color: #fff;
 }
 
-/* Header and navigation */
+/* Header */
 
 .header {
     height: 100vh;
@@ -93,14 +93,15 @@ nav img {
 .nav-links ul li a {
     color: #fff;
     background: #A68D60;
-    border: 9px solid #A68D60;
     font-family: "Playfair Display", sans-serif;
+    padding: 0.5rem 0.9rem;
+    letter-spacing: 0.2px;
+    font-size: 1.1rem;
 }
 
 .nav-links ul li a:hover {
     color: #A68D60;
     background: #fff;
-    border: 8px solid #fff;
 }
 
 nav .fa-solid {
@@ -257,7 +258,7 @@ nav .fa-solid {
 
 .footer-container li {
     list-style-type: none;
-    line-height: 1.4rem;
+    line-height: 1.5rem;
 }
 
 .fa-solid {
