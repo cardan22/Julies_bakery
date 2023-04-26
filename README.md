@@ -1,6 +1,6 @@
 # Julie's Bakery
 
-Link to the website: [Julie's Bakery](https://cardan22.github.io/Julies_bakery/)
+Link to the website: [Julie's Bakery](https://cardan22.github.io/julies-bakery/)
 
 ![Mockup of Julie's Bakery website](/assets/images/readme-images/julies-bakery-mockup-light.png)
 
@@ -170,13 +170,26 @@ The Julie's Bakery website is made up of three pages:
 
 # Testing
 
-* 
-* 
+* I tested all the links on every page, and they're working as expected.
+* The navigation bar was also tested on different devices and works fine.
+* I checked the website's appearance on various screen sizes, and everything seems to be working correctly.
+
+## HTML
+
+* The [W3C HTML Validator](https://validator.w3.org/) was used to validate the HTML code. Some adjustments were made, including removing extra close tags, erasing the ARIA label on Font Awesome icons, and correcting the misuse of ARIA label for the toggle menu.
+
+## CSS
+* The CSS code was validated using the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/), which indicated that quotes needed to be added to the font name that contains white space.
+
+## Accessibility (Devtool Lighthouse Report)
+* I ran a Lighthouse test on the website and it received a high score, except for the "Best Practices" section. The reason for this is due to the Instagram widget, which displays images in the wrong format.
+
+![Lighthouse test result](/assets/images/readme-images/jb-lighthouse.png)
 
 ## List of main issues:
 
 The toggle menu fails to remain hidden off-screen, even when it is supposed to be hidden.
-* The solution was to add the CSS code "body { overflow-x: hidden; }" to the media query. This will disable horizontal scrolling and ensure that the toggle menu remains hidden off-screen.
+* The solution involved updating the JavaScript code to set the display property to "block" and "none", and also adding the CSS styling display: none; to the "nav-links" class.
 
 The image in the flexbox was leaving a small space at the bottom. 
 * The solution was to add the following CSS property: { display: block; }.
@@ -184,6 +197,8 @@ The image in the flexbox was leaving a small space at the bottom.
 The logo was appearing pixelated and unclear.
 * The solution was to use SVG file for the logo instead of PNG.
 
+Issues using "required" attribute on the checkbox input.
+* The solution was to remove the "required" attribute and use JavaScript to ensure that at least one checkbox is selected before the form can be submitted.
 
 # Development and Deployment
 
@@ -198,7 +213,7 @@ To deploy the project, follow the "Creating your site" instructions provided in 
 5.	In the "Source" section, select "main" as the branch and "root" as the folder, then click "Save".
 6.	The website will be deployed, and the page will automatically refresh to display the link to the live project.
 
-You can find the link to the project [here.](https://cardan22.github.io/Julies_bakery/)
+You can find the link to the project [here.](https://cardan22.github.io/julies-bakery/)
 
 # Credits
 
@@ -209,14 +224,16 @@ You can find the link to the project [here.](https://cardan22.github.io/Julies_b
 * My mentor recommended using flexbox for the layout, and I practiced using it by playing the game [Flexbox Froggy](https://flexboxfroggy.com/).
 * For the Instagram feed widget, I used the service provided by [ElfSight](https://elfsight.com/), which offers customizable social media widgets that can be easily embedded into websites.
 * I got the code snippet for the "back to top button" from [w3schools.com](https://www.w3schools.com/howto/howto_js_scroll_to_top.asp).
+* The JavaScript code used to ensure that at least one checkbox is selected before the form can be submitted was sourced from [vyspiansky.github.io](https://vyspiansky.github.io/2019/07/13/javascript-at-least-one-checkbox-must-be-selected/)
 
 ## Media
 
 * The photos are downloaded from [Unsplash](https://unsplash.com/) and are available for free use, for commercial or non-commercial purposes.
 * The logo are designed by myself.
+* I used [Font Awesome](https://fontawesome.com/) for the icons on the website.
 
 ## Other
 
-* 
+* I want to thank my family for supporting me throughout the development of this website. Also, I'm grateful to my mentor for their encouragement and guidance, which has been crucial in my learning journey.
 
 [Back to top](#julies-bakery)
