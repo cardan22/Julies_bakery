@@ -162,6 +162,9 @@ The Julie's Bakery website is made up of three pages:
 
 ![Back to top botton](/assets/images/readme-images/botton.png)
 
+## Features Left to Implement:
+* Create a custom widget for displaying Instagram feed.
+
 # Technologies Used
 
 * [HTML](https://sv.wikipedia.org/wiki/HTML) 
@@ -170,35 +173,35 @@ The Julie's Bakery website is made up of three pages:
 
 # Testing
 
-* I tested all the links on every page, and they're working as expected.
-* The navigation bar was also tested on different devices and works fine.
-* I checked the website's appearance on various screen sizes, and everything seems to be working correctly.
+I tested all the links on every page, and they're working as expected. The navigation bar was also tested on different devices and works fine. Additionally, I checked the website's appearance on various screen sizes, and everything seems to be working correctly.
 
-## HTML
+### List of main issues:
+
+#### The toggle menu fails to remain hidden off-screen, even when it is supposed to be hidden.
+* The solution involved updating the JavaScript code to set the display property to "block" and "none", and also adding the CSS styling display: none; to the "nav-links" class.
+
+#### The image in the flexbox was leaving a small space at the bottom. 
+* The solution was to add the following CSS property: { display: block; }.
+
+#### The logo was appearing pixelated and unclear.
+* The solution was to use SVG file for the logo instead of PNG.
+
+#### Issues using "required" attribute on the checkbox input.
+* The solution was to remove the "required" attribute and use JavaScript to ensure that at least one checkbox is selected before the form can be submitted.
+
+## Validator Testing
+
+#### HTML
 
 * The [W3C HTML Validator](https://validator.w3.org/) was used to validate the HTML code. Some adjustments were made, including removing extra close tags, erasing the ARIA label on Font Awesome icons, and correcting the misuse of ARIA label for the toggle menu.
 
-## CSS
+#### CSS
 * The CSS code was validated using the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/), which indicated that quotes needed to be added to the font name that contains white space.
 
-## Accessibility (Devtool Lighthouse Report)
+#### Accessibility (Devtool Lighthouse Report)
 * I ran a Lighthouse test on the website and it received a high score, except for the "Best Practices" section. The reason for this is due to the Instagram widget, which displays images in the wrong format.
 
 ![Lighthouse test result](/assets/images/readme-images/jb-lighthouse.png)
-
-## List of main issues:
-
-The toggle menu fails to remain hidden off-screen, even when it is supposed to be hidden.
-* The solution involved updating the JavaScript code to set the display property to "block" and "none", and also adding the CSS styling display: none; to the "nav-links" class.
-
-The image in the flexbox was leaving a small space at the bottom. 
-* The solution was to add the following CSS property: { display: block; }.
-
-The logo was appearing pixelated and unclear.
-* The solution was to use SVG file for the logo instead of PNG.
-
-Issues using "required" attribute on the checkbox input.
-* The solution was to remove the "required" attribute and use JavaScript to ensure that at least one checkbox is selected before the form can be submitted.
 
 # Development and Deployment
 
@@ -231,6 +234,7 @@ You can find the link to the project [here.](https://cardan22.github.io/julies-b
 * The photos are downloaded from [Unsplash](https://unsplash.com/) and are available for free use, for commercial or non-commercial purposes.
 * The logo are designed by myself.
 * I used [Font Awesome](https://fontawesome.com/) for the icons on the website.
+* The top mockup in the README was generated using [ami.responsivedesign.is](http://ami.responsivedesign.is/).
 
 ## Other
 
