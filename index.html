@@ -105,7 +105,8 @@
     <footer class="footer">
         <div class="footer-container">
             <div class="footer-main">
-                <button onclick="topFunction()" id="topBtn" title="Go to top" aria-label="Click on the button to go to top of the page">Back to top</button>
+                <button onclick="topFunction()" id="topBtn" title="Go to top"
+                    aria-label="Click on the button to go to top of the page">Back to top</button>
                 <div class="footer-column">
                     <a href="index.html">
                         <img src="assets/images/jb-logo-150x150px.svg" alt="Julie's Bakery logo"
@@ -134,7 +135,7 @@
                     <h3>Contact us</h3>
                     <ul>
                         <li><a href="tel:013-251000" aria-label="Make a call to 013-25 10 00" target="_blank">
-                            <i class="fa-solid fa-phone"></i> 013-25 10 00</a>
+                                <i class="fa-solid fa-phone"></i> 013-25 10 00</a>
                         </li>
                         <li><a href="mailto:caroline.e.danielsson@gmail.com"
                                 aria-label="Send mail to info@juliesbakery.se (Opens in a new window)" target="_blank">
@@ -163,18 +164,22 @@
     <!-- Instagram script -->
     <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
 
-     <!-- Toggle menu script -->
+    <!-- Toggle menu script -->
     <script>
-     var navLinks = document.getElementById("navLinks");
-     function showMenu() {
-         navLinks.style.right = "0";
-     }
+        var navLinks = document.getElementById("navLinks");
 
-     function hideMenu() {
-         navLinks.style.right = "-250px";
-     }
+        function showMenu() {
+            navLinks.style.display = "block";
+        }
 
+        function hideMenu() {
+            navLinks.style.display = "none";
+        }
     </script>
+
+
+
+
 
     <!-- Back to top btn script -->
     <script>
