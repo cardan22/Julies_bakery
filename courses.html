@@ -96,7 +96,7 @@
         <!-- Form section : -->
         <section>
             <div class="form-container">
-                <form action="submit.html" method="GET" class="signup-form">
+                <form id="sectionForm" action="submit.html" method="GET" class="signup-form">
                     <h2>Join our courses today</h2>
                     <div class="form-group">
                         <label for="fname">First Name</label>
@@ -150,7 +150,7 @@
         <div class="footer-container">
             <div class="footer-main">
                 <button onclick="topFunction()" id="topBtn" title="Go to top"
-                    aria-label="Click on the buttom to go to top of the page">Back to top</button>
+                    aria-label="Click on the button to go to top of the page">Back to top</button>
                 <div class="footer-column">
                     <a href="index.html">
                         <img src="assets/images/jb-logo-150x150px.svg" alt="Julie's Bakery logo"
@@ -187,7 +187,7 @@
                         </li>
                         <li>
                             <a href="https://bit.ly/43r6BIO"
-                                aria-label="Get directions to Nygatan 36 in Linkoping in google (Opens in a new window)"
+                                aria-label="Get directions to Nygatan 36 in Linkoping in google map (Opens in a new window)"
                                 target="_blank"><i class="fa-solid fa-location-dot"></i> Nygatan 36,
                                 582 19 Linköping</a>
                         </li>
@@ -222,7 +222,7 @@
         }
     </script>
 
-    <!-- Back to top btn script -->
+    <!-- Back to top button script -->
     <script>
         // Get the button:
         let topbutton = document.getElementById("topBtn");
@@ -245,6 +245,41 @@
             document.body.scrollTop = 0; // For Safari
             document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
         }
+    </script>
+
+    <!-- Checkbox script -->
+    <script>
+        (function () {
+            const form = document.querySelector('#sectionForm');
+            const checkboxes = form.querySelectorAll('input[type=checkbox]');
+            const checkboxLength = checkboxes.length;
+            const firstCheckbox = checkboxLength > 0 ? checkboxes[0] : null;
+
+            function init() {
+                if (firstCheckbox) {
+                    for (let i = 0; i < checkboxLength; i++) {
+                        checkboxes[i].addEventListener('change', checkValidity);
+                    }
+
+                    checkValidity();
+                }
+            }
+
+            function isChecked() {
+                for (let i = 0; i < checkboxLength; i++) {
+                    if (checkboxes[i].checked) return true;
+                }
+
+                return false;
+            }
+
+            function checkValidity() {
+                const errorMessage = !isChecked() ? 'At least one checkbox must be selected.' : '';
+                firstCheckbox.setCustomValidity(errorMessage);
+            }
+
+            init();
+        })();
     </script>
 
 </body>
