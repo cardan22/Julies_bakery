@@ -217,6 +217,15 @@ nav .fa-solid {
     padding: 2rem;
 }
 
+.eapps-instagram-feed-container::after {
+    display: none !important;
+}
+
+.eapps-link:: {
+    display: none !important;
+}
+
+
 /* Footer */
 
 .footer {
@@ -402,7 +411,7 @@ nav .fa-solid {
 .submit-btn {
     color: #fff;
     background: #A68D60;
-    padding: 0.4rem 1rem;
+    padding: 0.5rem 2rem;
     font-size: 1.2rem;
     font-family: "Playfair Display", sans-serif;
     margin-top: 1.2rem;
@@ -548,19 +557,19 @@ nav .fa-solid {
     .sub-header-text,
     .contact-header-text {
         width: 70vw;
-        padding-top: 0;
+        padding-top: 5rem;
     }
 
     .hero-text h1,
     .sub-header-text h1,
     .contact-header-text h1 {
-        font-size: 2.8rem;
+        font-size: 3rem;
     }
 
     .course-text h2,
     .pastry-text h2,
     .instagram-widget h2 {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 
     .quote-container h3 {
@@ -626,6 +635,12 @@ nav .fa-solid {
     .contact-column p,
     .contact-column a {
         font-size: 1rem;
+    }
+
+    /* Instagram widget */
+
+    .instagram-widget {
+        padding: 2rem 0rem 0rem;
     }
 
     /* Footer */
@@ -701,34 +716,12 @@ nav .fa-solid {
         border: none;
     }
 
-    /* Heading and font-size */
+    /* Header */
 
-    .hero-text h1,
-    .sub-header-text h1,
-    .contact-header-text h1 {
-        font-size: 2.4rem;
-    }
-
-    .pastry-text h2,
-    .course-text h2,
-    .instagram-widget h2,
-    .form-container h2 {
-        font-size: 2rem;
-    }
-
-    .course-column h3,
-    .contact-column h3 {
-        font-size: 2rem;
-    }
-
-    .hero-text p,
-    .course-text p,
-    .pastry-text p,
-    .sub-header-text p,
-    .contact-header-text p,
-    .contact-column p,
-    .contact-column a {
-        font-size: 1.2rem;
+    .hero-text,
+    .sub-header-text,
+    .contact-header-text {
+        padding-top: 3rem;
     }
 
     /* Course section */
@@ -748,11 +741,13 @@ nav .fa-solid {
     }
 
     .form-container {
-        padding: 0;
+        padding: 1rem;
+        display: block;
     }
 
     .signup-form {
         margin: 2rem;
+        padding: 2rem;
     }
 
     .quote-container {
@@ -818,15 +813,11 @@ nav .fa-solid {
 
     .hero-text p,
     .course-text p,
-    .pastry-text p {
+    .pastry-text p,
+    .sub-header-text p,
+    .contact-header-text p,
+    .contact-column p {
         font-size: 1rem;
-    }
-
-    /* Header */
-    .hero-text,
-    .sub-header-text,
-    .contact-header-text {
-        width: 70vw;
     }
 
     /* Course section */
@@ -840,8 +831,12 @@ nav .fa-solid {
         font-size: 1.3rem;
     }
 
+    .form-container {
+        padding: 0.1rem;
+    }
+
     .signup-form {
-        margin: 2rem;
+        margin: 1rem;
         padding: 2rem;
     }
 
@@ -849,12 +844,8 @@ nav .fa-solid {
         line-height: 1.5rem;
     }
 
-    /* Instagram widget */
-    .instagram-widget {
-        padding: 2rem 1rem 0rem;
-    }
-
     /* Footer */
+
     .footer-column {
         padding-top: 2rem;
     }
