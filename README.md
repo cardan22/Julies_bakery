@@ -113,9 +113,9 @@ The Julie's Bakery website is made up of three pages:
 
 ![Baking and Pastry courses section](/assets/images/readme-images/courses-columns.png)
 
-### Signup form 
+### Sign Up form 
 
-* Signup form for the courses.
+* Sign up form for the courses.
 * The signup form enables users to register for one or multiple baking classes by submitting their full name, phone number, email address, and course.
 
 ![Signup form for courses](/assets/images/readme-images/form.png)
