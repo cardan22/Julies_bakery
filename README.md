@@ -165,6 +165,8 @@ The Julie's Bakery website is made up of three pages:
 ## Features Left to Implement:
 * Create a custom widget for displaying Instagram feed.
 
+[Back to top](#julies-bakery)
+
 # Technologies Used
 
 * [HTML](https://sv.wikipedia.org/wiki/HTML) 
@@ -238,6 +240,6 @@ You can find the link to the project [here.](https://cardan22.github.io/julies-b
 
 ## Other
 
-* I want to thank my family for supporting me throughout the development of this website. Also, I'm grateful to my mentor at Code Institute for her encouragement and guidance, which has been crucial in my learning journey.
+* I want to thank my family for supporting me throughout the development of this website. Also, I'm grateful to my mentor at [Code Institute](https://codeinstitute.net/) for her encouragement and guidance, which has been crucial in my learning journey.
 
 [Back to top](#julies-bakery)
