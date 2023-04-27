@@ -780,6 +780,14 @@ nav .fa-solid {
 
     /* Heading and font-size */
 
+    .hero-text,
+    .sub-header-text,
+    .contact-header-text {
+        width: 70vw;
+        padding-top: 5rem;
+        top: 45vh;
+    }
+
     .hero-text h1,
     .sub-header-text h1,
     .contact-header-text h1 {
