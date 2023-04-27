@@ -26,7 +26,7 @@ This website is for:
 * Contact the bakery
 
 ## Design
-My goal was to create a website to feel like the bakery and show how they are related. I also want visitors to easily understand what the website is for and what it's all about.
+My goal was to create a website that feels like the bakery and reflects it's brand identity. I also want visitors to easily understand what the website is for and what it's all about.
 
 ## Wireframes
 * I used Figma to design wireframes, which helped me to create a visual representation of the website's appearance.
@@ -81,7 +81,7 @@ The Julie's Bakery website is made up of three pages:
 ### Baking and Pastry Courses
 
 * This section contains a photo, text and a call-to-action botton.
-* This section tells you why you should take a course at Julie's Bakery. Visitors can click on the call-to-action button to read more and sign up for a course.
+* This section tells the user why you should take a course at Julie's Bakery. Visitors can click on the call-to-action button to learn more and sign up for a course.
 
 ![Baking and Pastry Courses section](/assets/images/readme-images/courses-section.png)
 
@@ -109,7 +109,7 @@ The Julie's Bakery website is made up of three pages:
 ### Baking and Pastry courses section
 
 * This section contains three blocks with text and photos: Sourdough Bread, Pastry Course, and Learning to Decorate. 
-* TProvides users with details about the upcoming baking and pastry course, including information on course content, dates and times, and the course fee.
+* Provides users with details about the upcoming baking and pastry course, including information on course content, dates and times, and the course fee.
 
 ![Baking and Pastry courses section](/assets/images/readme-images/courses-columns.png)
 
@@ -173,7 +173,7 @@ The Julie's Bakery website is made up of three pages:
 
 # Testing
 
-I tested all the links on every page, and they're working as expected. The navigation bar was also tested on different devices and works fine. Additionally, I checked the website's appearance on various screen sizes, and everything seems to be working correctly.
+I tested all the links on each page and they worked as expected. I also checked the navigation bar on different devices and it worked well. I also made sure that the website looked good on different screen sizes and found no problems. I tested the website on Google Chrome, Microsoft Edge, and Safari, as well as on both iPhone and Android devices.
 
 ### List of main issues:
 
@@ -196,7 +196,7 @@ I tested all the links on every page, and they're working as expected. The navig
 * The [W3C HTML Validator](https://validator.w3.org/) was used to validate the HTML code. Some adjustments were made, including removing extra close tags, erasing the ARIA label on Font Awesome icons, and correcting the misuse of ARIA label for the toggle menu.
 
 #### CSS
-* The CSS code was validated using the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/), which indicated that quotes needed to be added to the font name that contains white space.
+* The CSS code was validated using the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/), which indicated that quotes needed to be added to the font name that contains white space. This was a simple issue to fix.
 
 #### Accessibility (Devtool Lighthouse Report)
 * I ran a Lighthouse test on the website and it received a high score, except for the "Best Practices" section. The reason for this is due to the Instagram widget, which displays images in the wrong format.
@@ -238,6 +238,6 @@ You can find the link to the project [here.](https://cardan22.github.io/julies-b
 
 ## Other
 
-* I want to thank my family for supporting me throughout the development of this website. Also, I'm grateful to my mentor for their encouragement and guidance, which has been crucial in my learning journey.
+* I want to thank my family for supporting me throughout the development of this website. Also, I'm grateful to my mentor at Code Institute for her encouragement and guidance, which has been crucial in my learning journey.
 
 [Back to top](#julies-bakery)

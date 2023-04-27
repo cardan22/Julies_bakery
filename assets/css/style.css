@@ -115,7 +115,7 @@ nav .fa-solid {
     flex-direction: column;
     color: #fff;
     position: absolute;
-    top: 51vh;
+    top: 60vh;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -216,15 +216,6 @@ nav .fa-solid {
     border: #A68D60 1.5px solid;
     padding: 2rem;
 }
-
-.eapps-instagram-feed-container::after {
-    display: none !important;
-}
-
-.eapps-link:: {
-    display: none !important;
-}
-
 
 /* Footer */
 
